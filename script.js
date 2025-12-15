@@ -13,3 +13,19 @@ if (com===1) {
 }
 }
 console.log(getComputerChoice())
+function getHumanChoice(){
+    let human = prompt('Choose "rock", "paper" or "scissors"');
+    while (human !== "rock" && human !== "paper" && human !== "scissors") {
+        human = prompt('Invalid choice. Choose "rock", "paper" or "scissors"');
+    }
+    if (human==="rock") {
+    return x;
+}else if (human==="paper"){
+   return y;
+}else {
+ return z;
+}
+    }
+
+
+console.log(getHumanChoice())
